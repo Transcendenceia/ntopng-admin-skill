@@ -79,13 +79,28 @@ Network traffic monitoring and analysis for AI agents using ntopng.
 | `NTOP_URL` | - | ntopng URL (required) |
 | `NTOP_USER` | `admin` | Username |
 | `NTOP_PASS` | - | Password (required) |
+| `NTOP_INSECURE` | `false` | Set to `true` to disable SSL verification |
 
 ## Security Best Practices
 
-1. **Use HTTPS** - Always connect over TLS in production
+1. **SSL Certificate Validation** - Enabled by default. Use `--insecure` or `NTOP_INSECURE=true` ONLY for development or self-signed certificates in internal networks
 2. **Secure credentials** - Store passwords in environment variables or secure files (chmod 600)
 3. **Limit access** - Create dedicated monitoring user if possible
 4. **Regular audits** - Review alerts for suspicious traffic patterns
+
+### SSL/TLS Configuration
+
+By default, all connections validate SSL certificates. For production with valid certificates, no changes needed.
+
+For self-signed certificates:
+```bash
+# Option 1: Command line flag
+./scripts/ntopng-helper.sh --insecure flows
+
+# Option 2: Environment variable
+export NTOP_INSECURE=true
+./scripts/ntopng-helper.sh flows
+```
 
 ## Use Cases
 
