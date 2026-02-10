@@ -5,19 +5,8 @@ description: Monitor and analyze network traffic using ntopng. Use when you need
 
 # ntopng Admin
 
-> ⚠️ **ADVERTENCIA DE RESPONSABILIDAD / DISCLAIMER**
+> ⚠️ **DISCLAIMER**
 >
-> Esta herramienta otorga acceso de **ALTO PRIVILEGIO** a tu infraestructura de red.
-> Puede ver tráfico sensible, credenciales en texto plano, y datos personales.
->
-> **Al usar esta skill, declaras que:**
-> - Eres un adulto responsable
-> - Tienes autorización para monitorear esta red
-> - Entiendes los riesgos de seguridad
-> - Usarás esta herramienta éticamente y legalmente
->
-> **El autor no se hace responsable** por uso indebido, accesos no autorizados,
-> o daños derivados del uso de esta skill.
 > This tool grants **HIGH PRIVILEGE** access to your network infrastructure.
 > It can view sensitive traffic, plain-text credentials, and personal data.
 >
