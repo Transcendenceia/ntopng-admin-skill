@@ -1,0 +1,23 @@
+# Ignore sensitive files
+.ntopng/
+*.credentials
+.env
+
+# Temporary files
+tmp/
+/tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
