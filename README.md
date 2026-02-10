@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![ntopng](https://img.shields.io/badge/ntopng-6.4+-orange.svg)](https://www.ntop.org/products/traffic-analysis/ntop/)
 
+> ⚠️ **ADVERTENCIA: Esta herramienta otorga acceso de ALTO PRIVILEGIO a tu red.**
+> Al usarla, declaras ser un adulto responsable. [Ver disclaimer completo](SKILL.md)
+
 Network traffic monitoring and analysis for AI agents using ntopng.
 
 ## 🚀 Quick Start
